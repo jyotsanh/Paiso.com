@@ -1,0 +1,50 @@
+.course-card {
+  background-color: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 30%; /* Fixed width for each card */
+  box-sizing: border-box; /* Include padding and border in the element's width */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for transform and box-shadow */
+}
+
+/* Image styling */
+.course-image {
+  width: 100%; /* Ensures the image takes up the full width of the card */
+  height: 200px; /* Set a fixed height for consistency */
+  object-fit: cover; /* Ensures the image covers the set height/width without distortion */
+  border-radius: 8px;
+}
+
+/* Course info styling */
+.course-info h5 {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.course-info p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+/* Hover effect */
+.course-card:hover {
+  transform: translateY(-5px); /* Move the card up slightly */
+  box-shadow: 0 10px 20px #42a047; /* Add a shadow for a lifting effect */
+}
+
+/* Container and row styling */
+.course-list {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.course-row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}

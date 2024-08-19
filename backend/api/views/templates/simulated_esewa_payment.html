@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simulated eSewa Payment</title>
+</head>
+<body>
+    <h1>Simulated eSewa Payment</h1>
+    <p>User: {{ user.username }}</p>
+
+    <form method="post">
+        {% csrf_token %}
+        <button type="submit">Pay 500 NRS to Become Premium</button>
+    </form>
+</body>
+</html>

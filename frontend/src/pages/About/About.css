@@ -1,0 +1,130 @@
+/* Overall container styling */
+/* .about{
+    background-color: #232C33;
+} */
+.home-hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  position: relative;
+  background-image: url('../../assets/aa.png'); /* Background image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 50vh; /* At least 50% of the viewport height */
+  height: 100vh; /* Full viewport height */
+  max-height: 90vh; /* Maximum of 90% of the viewport height */
+  color: white;
+  filter: brightness(1.5); /* Adjust brightness */
+}
+
+.about-us-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    gap: 40px;
+    flex-wrap: wrap;
+    position: relative; /* Allows for positioning pseudo-elements */
+    overflow: hidden; /* Ensures the pseudo-element doesn't overflow */
+  }
+  
+  /* Curved background styling */
+  .about-us-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../../assets/curve-background.jpg') no-repeat center center;
+    background-size: cover;
+    clip-path: ellipse(80% 60% at 50% 50%); /* Adjust this for the curve effect */
+    z-index: -1; /* Places the background image behind other content */
+  }
+  
+  /* Styling for the image container */
+  .image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Styling for the about us image */
+  .about-us-image {
+    max-width: 100%;
+    max-height: 400px;
+    width: auto;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  /* Styling for the text container */
+  .text-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  /* Styling for the heading */
+  .text-container h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  /* Styling for the paragraphs */
+  .text-container p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  /* Our Team Section */
+  .our-team-container {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .our-team-container h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+  }
+  
+  .team-members {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .team-member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .team-member-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #ddd;
+    margin-bottom: 15px;
+  }
+  
+  .team-member-info h3 {
+    font-size: 1.2em;
+    margin: 0;
+  }
+  
+  .team-member-info p {
+    font-size: 1em;
+    margin: 5px 0 0;
+  }
+  

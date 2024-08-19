@@ -1,0 +1,156 @@
+.chart-container {
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+.chart-container {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.sectors-heading {
+  margin-top: 60px;
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.sectors-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.sector-card {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 04px8pxrgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s ease;
+  width: 30%;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.sector-cardimg {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.sector-card.sector-name {
+  padding: 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.sector-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 08px16pxrgba(0, 0, 0, 0.2);
+}
+
+/* Nepal Stock Trader Styles */h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+table {
+  margin: 0 auto;
+  width: 80%;
+  border-collapse: collapse;
+  margin-bottom: 40px;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+button {
+  padding: 6px 14px; /* Slightly smaller buttons */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 30px;
+width: 100px;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+ #buy {
+  background-color: #000000; /* Green for buy */
+   color: white;
+}
+
+#sell {
+  background-color: #000000; 
+  color: white;
+  
+}
+#buy:hover {
+  background-color: #42a047; /* Green for buy */
+   color: white;
+}
+#sell:hover {
+  background-color: #f41b1b; 
+  color: white;
+  
+}
+
+.sectors-heading {
+  margin-top: 40px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.sectors-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.sector-card {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s ease;
+  width: 30%;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.sector-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.sector-card .sector-name {
+  padding: 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.sector-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}

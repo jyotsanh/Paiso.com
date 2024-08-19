@@ -1,0 +1,86 @@
+/* General styles for the container */
+.cal-container {
+    width: 600px; /* Reduced the width */
+    margin: 20px auto; /* Centers the container */
+    padding: 30px;
+    background-color: #f9f9f9;
+    border: 2px solid #e0e0e0;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.cal-heading {
+    font-size: 20px; /* Reduced the font size */
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.cal-description {
+    font-size: 14px; /* Reduced the font size */
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Radio button options */
+.cal-options {
+    margin-bottom: 20px;
+}
+
+.cal-radioLabel {
+    margin-right: 10px;
+    color: #333;
+}
+
+/* Input group styles */
+.cal-inputGroup {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.cal-inputGroup label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px; /* Reduced the font size */
+    color: #333;
+}
+
+.cal-input {
+    width: calc(100% - 20px); /* Reduced the width */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Calculate button */
+.cal-calculateButton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cal-calculateButton:hover {
+    background-color: #45a049;
+}
+
+/* Results section */
+.cal-results {
+    margin-top: 20px;
+}
+
+.cal-investedAmount {
+    font-size: 16px;
+    color: #333;
+}
+
+.cal-futureValue {
+    font-size: 18px;
+    color: #007bff;
+}

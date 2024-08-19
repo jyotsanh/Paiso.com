@@ -1,0 +1,98 @@
+.reg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  background-color: #ffffff; /* Unified background color */
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.reg-box {
+  max-width: 600px;
+  width: 100%;
+  padding: 40px;
+  background-color: #f9f9f9; /* Light grey background */
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #32499f;
+}
+
+/* Grid layout for the form fields */
+.reg-form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Three equal columns */
+  grid-gap: 20px; /* Space between the grid items */
+}
+
+.reg-input-container {
+  position: relative;
+  width: 100%;
+}
+
+.reg-input-container input {
+  width: 100%;
+  padding: 12px 40px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.reg-input-container input:focus {
+  border-color: #4caf50;
+  outline: none;
+}
+
+.fas {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #aaa;
+}
+
+.fas.fa-eye {
+  right: 10px;
+  cursor: pointer;
+}
+
+.reg-error {
+  color: #d9534f;
+  margin-top: -15px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-align: left; /* Align error message with the input field */
+}
+
+.reg-submit-btn {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  background-color: #32499f; /* Unified button color */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.reg-submit-btn:hover {
+  background-color: #293d7f; /* Slightly darker shade for hover */
+}
+
+.reg-login-link {
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 20px;
+}
+
+.reg-login-link a {
+  color: #4caf50;
+  text-decoration: none;
+}

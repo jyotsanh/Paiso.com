@@ -1,0 +1,125 @@
+/* Navbar container styling */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 60px;
+  background-color: #fff; /* Ensure the background is white */
+  border-bottom: 1px solid #e0e0e0; /* Subtle border instead of box-shadow */
+}
+
+/* Logo container styling */
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+/* Logo image styling */
+.logo-image {
+  height: 120px;
+  width: 120px;
+  margin-left: 50px;
+  transform: scale(1.5); /* Scale up by 50% */
+  transform-origin: center; /* Ensure the scaling is centered */
+}
+
+/* Menu styling */
+.menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Menu item styling */
+.menu li {
+  margin: 0 20px; /* Adjust spacing between menu items */
+}
+
+/* Link styling */
+.menu li a {
+  text-decoration: none;
+  color: #000000; /* Default text color */
+  font-weight: bold;
+  font-size: 28px; /* Font size for menu items */
+  transform: scale(1.25); /* Scale up by 25% */
+  transform-origin: center; /* Ensure the scaling is centered */
+}
+.menu li.active-page{
+  color: #42a047;
+}
+
+/* Hover effect for menu items */
+.menu li:hover a {
+  color: #42a047; /* Green color on hover */
+  /* background-color: #42a047; */
+}
+
+/* Active page link styling */
+.active-page {
+  color: #39d64b ; /* Green color for the active page link */
+}
+
+/* Login and Register button container */
+.log {
+  display: flex;
+  align-items: center;
+}
+
+/* Login button styling */
+.login-btn, .register-btn {
+  padding: 10px 25px; /* Increased padding for buttons */
+  font-size: 16px; /* Increased font size */
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px; /* Spacing between login and register buttons */
+}
+
+/* Link inside buttons */
+.login-btn a, .register-btn a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Login button default and hover styling */
+.login-btn {
+  background-color: transparent;
+  color: #228B22; /* Green color for login button text */
+  border: 2px solid #228B22;
+}
+
+.login-btn:hover {
+  background-color: #228B22;
+  color: white;
+}
+
+/* Register button default and hover styling */
+.register-btn {
+  background-color: #232C33; /* Blue color for register button */
+  color: white;
+  border: none;
+}
+
+.register-btn:hover {
+  background-color: #232C33; /* Darker blue on hover */
+}
+
+/* Modal styling */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  width: 300px;
+}

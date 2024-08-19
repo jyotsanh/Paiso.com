@@ -1,0 +1,35 @@
+.course-container {
+    padding: 20px;
+  }
+  
+  .level-selector {
+    margin-bottom: 20px;
+  }
+  
+  .level-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+  
+  .level-list li {
+    margin: 0 15px;
+    font-size: 28px;
+    cursor: pointer;
+   
+  }
+  
+  
+  .course-list {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .course-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
